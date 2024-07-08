@@ -1,0 +1,759 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glider-js@1.7.3/glider.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Litho</title>
+  </head>
+  <body>
+    <header class="header">
+        <nav class="navbar navbar-expand-lg navbar navbar-dark bg-dark fixed-top navbar-boxed">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"><img src="imgs/logo-white.png" alt=""></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-center" id="navbarScroll">
+                <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll justify-content-center" style="--bs-scroll-height: 100px;"  id="menu-principal">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Pages</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Portfolio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Elements</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Facture</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Blog</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Shop</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#" id="menu-registro">Sign up</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+    
+
+    <main  id="main-content">
+        <section class="p-0 bg-dark-state-blue">
+        <article class="container-fluid">
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="imgs/pexels-pixabay-33152.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-md-block justify-content-center d-flex espaciado-text-banner">
+                        <h5 class="titulo-banner">Delivering creative</h5>
+                        <p> digital products</p>
+                      </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="imgs/pexels-sebastian-coman-travel-3631659.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-md-block justify-content-center d-flex espaciado-text-banner">
+                        <h5 class="titulo-banner">Combine thinking</h5>
+                        <p> and technical</p>
+                  </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="imgs/pexels-couleur-2317904.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-md-block justify-content-center d-flex espaciado-text-banner">
+                        <h5 class="titulo-banner">First slide label</h5>
+                        <p>Some representative placeholder content for the first slide.</p>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </article>
+        
+        </section>
+        <section class="high">
+            <div class="container">
+                <div class="row">
+                    <div class="col-4 sobresaliente">
+                        <div class="row rows-cols-1 row-cols-lg-3 rows-cols-md-2 justify-content-center">
+                            <div class="col-12">
+                                <!-- start feature box item-->
+                                <div class="feature-box h-100 feature-box-left-icon-middle padding-3-rem-all bg-white box-shadow-small box-shadow-large-hover border-radius-4px overflow-hidden last-paragraph-no-margin lg-padding-2-half-rem-tb lg-padding-2-rem-lr md-padding-4-rem-all">
+                                    <div class="feature-box-icon margin-30px-right lg-margin-25px-right">
+                                        <img src="imgs/flecha.jpg" alt="" class="img-fluid">
+                                    </div>
+                                    <div class="feature-box-content">
+                                        <div class="text-slate-blue font-weight-500 text-large margin-5px-bottom">Innovative business</div>
+                                        <span>Easy to customize</span>
+                                    </div>
+                                </div>
+                                <!-- end feature box item-->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4 sobresaliente">
+                        <div class="row rows-cols-1 row-cols-lg-3 rows-cols-md-2 justify-content-center">
+                            <div class="col-12">
+                                <!-- start feature box item-->
+                                <div class="feature-box h-100 feature-box-left-icon-middle padding-3-rem-all bg-white box-shadow-small box-shadow-large-hover border-radius-4px overflow-hidden last-paragraph-no-margin lg-padding-2-half-rem-tb lg-padding-2-rem-lr md-padding-4-rem-all">
+                                    <div class="feature-box-icon margin-30px-right lg-margin-25px-right">
+                                        <img src="imgs/candado.jpg" alt="" class="img-fluid">
+                                    </div>
+                                    <div class="feature-box-content">
+                                        <div class="text-slate-blue font-weight-500 text-large margin-5px-bottom texto-la-caja ">Innovative business</div>
+                                        <span>Easy to customize</span>
+                                    </div>
+                                </div>
+                                <!-- end feature box item-->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4 sobresaliente">
+                        <div class="row rows-cols-1 row-cols-lg-3 rows-cols-md-2 justify-content-center">
+                            <div class="col-12">
+                                <!-- start feature box item-->
+                                <div class="feature-box h-100 feature-box-left-icon-middle padding-3-rem-all bg-white box-shadow-small box-shadow-large-hover border-radius-4px overflow-hidden last-paragraph-no-margin lg-padding-2-half-rem-tb lg-padding-2-rem-lr md-padding-4-rem-all">
+                                    <div class="feature-box-icon margin-30px-right lg-margin-25px-right">
+                                        <img src="imgs/perfil.jpg" alt="" class="img-fluid">
+                                    </div>
+                                    <div class="feature-box-content">
+                                        <div class="text-slate-blue font-weight-500 text-large margin-5px-bottom">Innovative business</div>
+                                        <span>Easy to customize</span>
+                                    </div>
+                                </div>
+                                <!-- end feature box item-->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row align-items-end mt-5 pt-5">
+                    <div class="col-12 col-lg-3 col-md-6 order-1 text-center">
+                        <div class="titulo-high">175+</div>
+                        <span class="high-text">Worldwide offices</span>
+                        <p class="w-90 d-inline-block high-content">Lorem ipsum dolor sit consectetur do eiusmod tempor incididunt</p>
+                    </div>
+                    <div class="col-12 col-lg-6 order-3 order-lg-2 text-center z-index-0 wow animate__fadeIn" style="visibility: visible;">
+                        <div class="tilt-box" data-tilt-options="{ &quot;maxTilt&quot;: 20, &quot;perspective&quot;: 1000, &quot;easing&quot;: &quot;cubic-bezier(.03,.98,.52,.99)&quot;, &quot;scale&quot;: 1, &quot;speed&quot;: 500, &quot;transition&quot;: true, &quot;reset&quot;: true, &quot;glare&quot;: false, &quot;maxGlare&quot;: 1 }">
+                            <span class="text-extra-big-2 alt-font text-uppercase text-green font-weight-600 letter-spacing-minus-10px image-mask cover-background" style="background-image: url('imgs/home-startup-text-bg.jpg')">20</span>
+                            <span class="alt-font text-extra-large text-extra-dark-gray letter-spacing-4px font-weight-600 text-uppercase margin-5px-top d-block">Years of experience</span>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-3 col-md-6 order-2 text-lg-left">
+                        <div class="titulo-high">175+</div>
+                        <span class="high-text">Worldwide offices</span>
+                        <p class="w-90 d-inline-block high-content">Lorem ipsum dolor sit consectetur do eiusmod tempor incididunt</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="overflow-visible pt-md-0 pb-0 online mb-5
+        ">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-center online-separador">
+                        <img src="imgs/pexels-alexas-fotos-2173872.jpg" alt="" class="circulo">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="antes-carrulex pt-5 mt-5">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-12 col-lg-5 col-sm-9 text-center section-antes-carrulex">
+                        <h5 class="titulo-antes-carrulex">We provide advanced solutions to growin your online business</h5>
+                    </div>
+                    <div class="col-12 col-lg-6">
+                        <div class="row row-cols-1 row-cols-sm-2">
+                            <!-- start feature box item -->
+                            <div class="col text-center texto-1">
+                                <div class="last-paragraph-no-margin">
+                                    <span class="titulo-text">Build perfect websites</span>
+                                    <p class="w-85 lg-w-100 xs-w-75 mx-auto mx-sm-0">Lorem ipsum dolor consectetur adipiscing elit eiusmod tempor elit eiusmod tempor.</p>
+                                </div>
+                            </div>
+                            <!-- end feature box item -->
+                            <!-- start feature box item -->
+                            <div class="col text-center text-sm-left">
+                                <div class="last-paragraph-no-margin">
+                                    <span class="titulo-text">Unique experiences</span>
+                                    <p class="w-85 lg-w-100 xs-w-75 mx-auto mx-sm-0">Lorem ipsum dolor consectetur adipiscing elit eiusmod tempor elit eiusmod tempor.</p>
+                                </div>
+                            </div>
+                            <!-- end feature box item -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="carrusel mb-5 mt-5 pb-5">
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <div class="row row-cols-1 row-cols-md-3 g-4">
+                        <div class="col">
+                          <div class="card h-100">
+                            <img src="imgs/pexels-dorte-179237.jpg" class="card-img-top" alt="...">
+                            </div>
+                        </div>
+                        <div class="col">
+                          <div class="card h-100">
+                            <img src="imgs/perrito-15.jpg" class="card-img-top" alt="...">
+                          </div>
+                        </div>
+                        <div class="col">
+                          <div class="card h-100">
+                            <img src="imgs/pexels-linda-rusinko-7483187.jpg" class="card-img-top" alt="...">
+                          </div>
+                        </div>
+                    </div>
+                   </div>
+                  <div class="carousel-item">
+                    <div class="row row-cols-1 row-cols-md-3 g-4">
+                        <div class="col">
+                          <div class="card h-100">
+                            <img src="imgs/pexels-anete-lusina-4790612.jpg" class="card-img-top" alt="...">
+                          </div>
+                        </div>
+                        <div class="col">
+                          <div class="card h-100">
+                            <img src="imgs/pexels-alexas-fotos-7408291.jpg" class="card-img-top" alt="...">
+                          </div>
+                        </div>
+                        <div class="col">
+                          <div class="card h-100">
+                            <img src="imgs/pexels-наталия-харламова-6723884.jpg" class="card-img-top" alt="...">
+                          </div>
+                        </div>
+                    </div>
+                   </div>
+                  <div class="carousel-item">
+                    <div class="row row-cols-1 row-cols-md-3 g-4">
+                        <div class="col">
+                          <div class="card h-100">
+                            <img src="imgs/pexels-apunto-group-agencia-de-publicidad-7752793.jpg" class="card-img-top" alt="...">
+                          </div>
+                        </div>
+                        <div class="col">
+                          <div class="card h-100">
+                            <img src="imgs/pexels-dorte-179221.jpg" class="card-img-top" alt="...">
+                          </div>
+                        </div>
+                        <div class="col">
+                          <div class="card h-100">
+                            <img src="imgs/pexels-sornbhakkanut-boonprasop-2646483.jpg" class="card-img-top" alt="...">
+                          </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
+        </section>
+        <section class="amazing">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-12col-lg-8 col-sm-10 blog-titulo my-5">
+                        <span class="work-titulo-verde d-block">Amazing design services</span>
+                        <h4 class="blog-titulo-negro">Beautiful and easy to use professional animations and drag & drop feature</h4>
+                    </div>
+                </div>
+                <div class="row row-cols-1 row-cols-md-2 g-4">
+                    <div class="col-4">
+                      <div class="card">
+                        <img src="imgs/corrito.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title text-center">Card title</h5>
+                          <p class="card-text text-center">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-4">
+                      <div class="card">
+                        <img src="imgs/candado.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title text-center">Card title</h5>
+                          <p class="card-text text-center">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-4">
+                      <div class="card">
+                        <img src="imgs/flecha.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title text-center">Card title</h5>
+                          <p class="card-text text-center">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+        </section>
+        <section class="business">
+            <div class="container">
+                <div class="row align-item-center justify-content-center">
+                    <div class="col-12 col-xl-5 col-lg-6 col-md-10 business-espaciado">
+                        <div class="col-12 p-0">
+                            <span class="work-titulo-verde d-block">Business process</span>
+                            <h4 class="blog-titulo-negro">Understand and apply the business process</h4>
+                        </div>
+                        <div class="col-12 p-0">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, esse sint? Reiciendis, dolorem! Officia libero accusantium itaque vitae perferendis eligendi excepturi, sint voluptas quam maxime molestias voluptate, temporibus magnam aperiam.</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-6 ps-5">
+                        <div class="outside-box-right position-relative">
+                            <img src="imgs/vertical-perrito.jpeg" alt="" data-no-retina="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="precio">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-12 col-xl-4 col-lg-5 col-sm-6 blog-titulo my-5">
+                        <span class="work-titulo-verde d-block">Simple pricing packages</span>
+                        <h4 class="blog-titulo-negro">Choose one of our plans get access to plugins for free</h4>
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    
+                    <ul class="nav nav-pills mb-3 justify-content-center" id="pills-tab" role="tablist">
+                        <li class="nav-item" role="presentation">
+                          <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Monthy</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                          <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Yearly</button>
+                        </li>
+                      </ul>
+                      <div class="tab-content" id="pills-tabContent">
+                        <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                            <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+                                <div class="col">
+                                  <div class="card mb-4 rounded-3 shadow-sm">
+                                    <div class="card-header py-3">
+                                      <h4 class="my-0 fw-normal">Free</h4>
+                                    </div>
+                                    <div class="card-body">
+                                      <h1 class="card-title pricing-card-title">$0<small class="text-muted fw-light">/mo</small></h1>
+                                      <ul class="list-unstyled mt-3 mb-4">
+                                        <li>10 users included</li>
+                                        <li>2 GB of storage</li>
+                                        <li>Email support</li>
+                                        <li>Help center access</li>
+                                      </ul>
+                                      <button type="button" class="w-100 btn btn-lg btn-outline-success">Sign up for free</button>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="col">
+                                  <div class="card mb-4 rounded-3 shadow-sm">
+                                    <div class="card-header py-3">
+                                      <h4 class="my-0 fw-normal">Pro</h4>
+                                    </div>
+                                    <div class="card-body">
+                                      <h1 class="card-title pricing-card-title">$15<small class="text-muted fw-light">/mo</small></h1>
+                                      <ul class="list-unstyled mt-3 mb-4">
+                                        <li>20 users included</li>
+                                        <li>10 GB of storage</li>
+                                        <li>Priority email support</li>
+                                        <li>Help center access</li>
+                                      </ul>
+                                      <button type="button" class="w-100 btn btn-lg btn-success">Get started</button>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="col">
+                                  <div class="card mb-4 rounded-3 shadow-sm border-success">
+                                    <div class="card-header py-3 text-white bg-success border-success">
+                                      <h4 class="my-0 fw-normal">Enterprise</h4>
+                                    </div>
+                                    <div class="card-body">
+                                      <h1 class="card-title pricing-card-title">$29<small class="text-muted fw-light">/mo</small></h1>
+                                      <ul class="list-unstyled mt-3 mb-4">
+                                        <li>30 users included</li>
+                                        <li>15 GB of storage</li>
+                                        <li>Phone and email support</li>
+                                        <li>Help center access</li>
+                                      </ul>
+                                      <button type="button" class="w-100 btn btn-lg btn-success">Contact us</button>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                        </div>
+                        <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+                            <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+                                <div class="col">
+                                  <div class="card mb-4 rounded-3 shadow-sm">
+                                    <div class="card-header py-3">
+                                      <h4 class="my-0 fw-normal">Free</h4>
+                                    </div>
+                                    <div class="card-body">
+                                      <h1 class="card-title pricing-card-title">$90.99<small class="text-muted fw-light">/mo</small></h1>
+                                      <ul class="list-unstyled mt-3 mb-4">
+                                        <li>10 users included</li>
+                                        <li>2 GB of storage</li>
+                                        <li>Email support</li>
+                                        <li>Help center access</li>
+                                      </ul>
+                                      <button type="button" class="w-100 btn btn-lg btn-outline-success">Sign up for free</button>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="col">
+                                  <div class="card mb-4 rounded-3 shadow-sm">
+                                    <div class="card-header py-3">
+                                      <h4 class="my-0 fw-normal">Pro</h4>
+                                    </div>
+                                    <div class="card-body">
+                                      <h1 class="card-title pricing-card-title">$199.99<small class="text-muted fw-light">/mo</small></h1>
+                                      <ul class="list-unstyled mt-3 mb-4">
+                                        <li>20 users included</li>
+                                        <li>10 GB of storage</li>
+                                        <li>Priority email support</li>
+                                        <li>Help center access</li>
+                                      </ul>
+                                      <button type="button" class="w-100 btn btn-lg btn-success">Get started</button>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="col">
+                                  <div class="card mb-4 rounded-3 shadow-sm border-success">
+                                    <div class="card-header py-3 text-white bg-success border-success">
+                                      <h4 class="my-0 fw-normal">Enterprise</h4>
+                                    </div>
+                                    <div class="card-body">
+                                      <h1 class="card-title pricing-card-title">$290<small class="text-muted fw-light">/mo</small></h1>
+                                      <ul class="list-unstyled mt-3 mb-4">
+                                        <li>30 users included</li>
+                                        <li>15 GB of storage</li>
+                                        <li>Phone and email support</li>
+                                        <li>Help center access</li>
+                                      </ul>
+                                      <button type="button" class="w-100 btn btn-lg btn-success">Contact us</button>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                        </div>
+                        <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab"><div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+                            <div class="col">
+                              <div class="card mb-4 rounded-3 shadow-sm">
+                                <div class="card-header py-3">
+                                  <h4 class="my-0 fw-normal">Free</h4>
+                                </div>
+                                <div class="card-body">
+                                  <h1 class="card-title pricing-card-title">$99<small class="text-muted fw-light">/mo</small></h1>
+                                  <ul class="list-unstyled mt-3 mb-4">
+                                    <li>10 users included</li>
+                                    <li>2 GB of storage</li>
+                                    <li>Email support</li>
+                                    <li>Help center access</li>
+                                  </ul>
+                                  <button type="button" class="w-100 btn btn-lg btn-outline-primary">Sign up for free</button>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col">
+                              <div class="card mb-4 rounded-3 shadow-sm">
+                                <div class="card-header py-3">
+                                  <h4 class="my-0 fw-normal">Pro</h4>
+                                </div>
+                                <div class="card-body">
+                                  <h1 class="card-title pricing-card-title">$199<small class="text-muted fw-light">/mo</small></h1>
+                                  <ul class="list-unstyled mt-3 mb-4">
+                                    <li>20 users included</li>
+                                    <li>10 GB of storage</li>
+                                    <li>Priority email support</li>
+                                    <li>Help center access</li>
+                                  </ul>
+                                  <button type="button" class="w-100 btn btn-lg btn-primary">Get started</button>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col">
+                              <div class="card mb-4 rounded-3 shadow-sm border-primary">
+                                <div class="card-header py-3 text-white bg-primary border-primary">
+                                  <h4 class="my-0 fw-normal">Enterprise</h4>
+                                </div>
+                                <div class="card-body">
+                                  <h1 class="card-title pricing-card-title">$209<small class="text-muted fw-light">/mo</small></h1>
+                                  <ul class="list-unstyled mt-3 mb-4">
+                                    <li>30 users included</li>
+                                    <li>15 GB of storage</li>
+                                    <li>Phone and email support</li>
+                                    <li>Help center access</li>
+                                  </ul>
+                                  <button type="button" class="w-100 btn btn-lg btn-primary">Contact us</button>
+                                </div>
+                              </div>
+                            </div>
+                          </div></div>
+                      </div>
+                </div>
+            </div>
+        </section>
+        <section class="no-blanco blog">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-12 col-xl-4 col-lg-5 col-sm-6 blog-titulo my-5">
+                        <span class="work-titulo-verde d-block">Latest blogs</span>
+                        <h4 class="blog-titulo-negro">Are you ready to work with us? Let's grow your business.</h4>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 blog-content">
+                        <div class="row row-cols-1 row-cols-md-2 g-4">
+                            <div class="col-4">
+                              <div class="card">
+                                <img src="imgs/pexels-rodnae-productions-7516522.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                  <h5 class="card-title">Recognizing the need is the primary condition design</h5>
+                                  <p class="card-text">Lorem ipsum is simply dummy text of printing and typesetting industry lorem ipsum been dummy...</p>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col-4">
+                              <div class="card">
+                                <img src="imgs/pexels-anna-shvets-4588424.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                  <h5 class="card-title">Computers are to design as microwaves are to cooking</h5>
+                                  <p class="card-text">Lorem ipsum is simply dummy text of printing and typesetting industry lorem ipsum been dummy...</p>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col-4">
+                              <div class="card">
+                                <img src="imgs/pexels-rodnae-productions-7516434.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                  <h5 class="card-title">Fashion and interior design are one and the same</h5>
+                                  <p class="card-text">Lorem ipsum is simply dummy text of printing and typesetting industry lorem ipsum been dummy...</p>
+                                </div>
+                              </div>
+                            </div>
+                            
+                          </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="work">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-12 col-lg-7 col-md-10 work-titulo">
+                        <span class="work-titulo-verde d-block">Love to work together</span>
+                        <h4 class="work-titulo-negro">Are you ready to work with us? Let's grow your business.</h4>
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-12 col-lg-8 col-md-9 work-form">
+                        <div class="work-form-posicion">
+                            <form action="">
+                                <input class="email-form  required" name="email" placeholder="Enter your email address" type="email">
+                                <input type="hidden" name="redirect" value="">
+                                <button class="btn btn-green button-form" type="submit">Subscribe now</button>
+                                <div class="form-results d-none posicion-form"></div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="tabla">
+          <section class="py-5 text-center container">
+              <div class="row py-lg-5">
+                <div class="col-lg-6 col-md-8 mx-auto">
+                  <h1 class="fw-light">Registro</h1>
+                  <p class="lead text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quae vitae temporibus quam alias placeat? Autem nobis aspernatur alias facilis neque doloremque! Sunt numquam repellendus nostrum nulla eaque distinctio vero.</p>
+                </div>
+              </div>
+            </section>
+          <section class="container">
+              <div class="mb-3">
+                  <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-categoria" aria-expanded="false" aria-controls="collapseExample">
+                  Nueva categoria
+                  </button> 
+              </div> 
+              
+              <div id="collapse-categoria" class="collapse">
+                  <div class="mb-3">
+                      <input type="text" class="form-control" id="txtNombre" placeholder="Nombre">
+                    </div>
+                    <div class="mb-3">
+                      <input type="text" class="form-control" id="txtEdad" placeholder="Edad">
+                    </div>
+                    <div class="mb-3">
+                      <input type="text" class="form-control" id="txtPropietario" placeholder="Propietario">
+                    </div>
+                    <div class="mb-3">
+                      <input type="text" class="form-control" id="txtDistrito" placeholder="Distrito">
+                    </div>
+                    <div class="mb-3">
+                      <button id="btnGuardar" class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-categoria" aria-expanded="false" aria-controls="collapseExample">
+                      Guardar
+                      </button> 
+                      <button class="btn btn-secondary" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-categoria" aria-expanded="false" aria-controls="collapseExample">
+                      Cerrar
+                      </button>
+                  </div> 
+              </div>
+        
+              <table class="table ">
+                  <thead>
+                      <tr>
+                          <th>Cod</th>
+                          <th>Nombre</th>
+                          <th>Edad</th>
+                          <th>Propietario</th>
+                          <th>Distrito</th>
+                          <th></th>
+                          <th></th>
+                      </tr>
+                  </thead>
+                  <tbody id="tbody-categorias">
+        
+                  </tbody>
+              </table>
+            </div>
+        
+            <div class="modal fade" id="modal-actualizar" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Actualizar categoria</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                      <div class="mb-3">
+                          <input type="text" class="form-control" id="txtIdMascotaActualizar" readonly>
+                        </div>
+                      <div class="mb-3">
+                          <input type="text" class="form-control" id="txtNombreActualizar" placeholder="Nombre">
+                        </div>
+                        <div class="mb-3">
+                          <input type="text" class="form-control" id="txtEdadActualizar" placeholder="Edad">
+                        </div>
+                        <div class="mb-3">
+                          <input type="text" class="form-control" id="txtPropietarioActualizar" placeholder="Propietario">
+                        </div>
+                        <div class="mb-3">
+                          <input type="text" class="form-control" id="txtDistritoActualizar" placeholder="Distrito">
+                        </div>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    <button type="button" data-bs-dismiss="modal"  class="btn btn-primary" id="btnActualizar">Actualizar</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </section>
+
+    </main>
+    <footer class="footer-img" >
+        <div class="espaciado">
+        </div>
+        <div class="padding-four-tb">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-3 col-sm-6 ">
+                        <span class="text-footer">Company</span>
+                        <ul>
+                            <li><a href="#" class="text-decoration-none">About company</a></li>
+                            <li><a href="#" class="text-decoration-none">Our services</a></li>
+                            <li><a href="#" class="text-decoration-none">Job opportunities</a></li>
+                            <li><a href="#" class="text-decoration-none">Contact us</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-12 col-md-3 col-sm-6 ">
+                        <span class="text-footer">Customer</span>
+                        <ul>
+                            <li><a href="#" class="text-decoration-none">Client support</a></li>
+                            <li><a href="#" class="text-decoration-none">Pricing packages</a></li>
+                            <li><a href="#" class="text-decoration-none">Company story</a></li>
+                            <li><a href="#" class="text-decoration-none">Latest news</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-12 col-md-3 col-sm-6 ">
+                        <span class="text-footer">Resources</span>
+                        <ul>
+                            <li><a href="#" class="text-decoration-none">Theme guide</a></li>
+                            <li><a href="#" class="text-decoration-none">Support desk</a></li>
+                            <li><a href="#" class="text-decoration-none"> What we offer</a></li>
+                            <li><a href="#" class="text-decoration-none">Company history</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-12 col-md-3 col-sm-6 ">
+                        <span class="text-footer">Services</span>
+                        <ul>
+                            <li><a href="#" class="text-decoration-none">Brand experience</a></li>
+                            <li><a href="#" class="text-decoration-none">E-commerce website</a></li>
+                            <li><a href="#" class="text-decoration-none">Content writing</a></li>
+                            <li><a href="#" class="text-decoration-none">Marketing strategy</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="creditos">
+            <div class="container">
+                <div class="row align-item-center">
+                    <div class="col-12 col-sm-4 footer-logo">
+                        <a href="#" class="foter-logo">
+                            <img src="imgs/logo-green-dark@2x.png" alt="">
+                        </a>
+                    </div>
+                    <div class="col-12 col-sm-8 credito-texto">
+                        <p>© 2021 Litho is Proudly Powered by Melanie Garcia</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
